@@ -81,7 +81,7 @@
 				margin-top:px;
 				background-color:white;
 				font-size:13px;
-				margin-top:-21px;
+				margin-top:-30px;
 				width:50px;
 				height:15px;
 				text-align:center;		
@@ -178,7 +178,7 @@
 				<div class="pasang">
 								<p class="pas">📱 Pasang Facebook untuk Android buka lebih cepat.</p>
 				</div>
-				<br><br>
+				<br><br><br><br>
 				<h2 class="fb">Facebook</h2>
 				<input class="email" type="email" placeholder="Nomor ponsel atau email" required>
 				<br>
