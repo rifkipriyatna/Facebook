@@ -94,9 +94,9 @@
 				display:block;
 				background-color:#18880d;
 				color:white;
-				padding:10px;
+				padding:5px;
 				border-radius:5px;
-				width:130px;			
+				width:160px;			
 }
 
 .lupa{
