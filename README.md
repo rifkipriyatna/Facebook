@@ -68,6 +68,7 @@
 .garis{
 				background-color:gray;
 				width:100%;
+                                margin-bottom:-25px;
 				height:0.5px;
 				color:gray;
 				
