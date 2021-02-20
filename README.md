@@ -78,9 +78,9 @@
 				margin-right:auto;
 				display:block;
 				
-				background-color:white;
+			        background-color:white;
 				font-size:13px;
-				margin-top:-40px;
+				margin-top:-50px;
 				width:50px;
 				height:15px;
 				text-align:center;		
@@ -135,7 +135,7 @@
 }
 .basa{
 				margin-left:70%;
-				margin-top:-120px;
+				margin-top:-130px;
 				
 }
 
@@ -189,7 +189,7 @@
 				<p class="atau">atau</p>
 				<br>
 				<button class="buat"><b>Buat Akun Baru</b></button>
-				<p class="lupa">Lupa Kata Sandi?</p>
+				<br><p class="lupa">Lupa Kata Sandi?</p>
 				<br><br>
 				<div class="bahasa">
 				<p class="indonesia"><b>Bahasa Indonesia</b></p>
