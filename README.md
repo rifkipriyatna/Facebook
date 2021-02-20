@@ -184,7 +184,7 @@
 				<br>
 				<input class="pw" type="password" placeholder="Password" required>
 				<br>
-				<button class="masuk"><b>Masuk</b></button>
+				<button class="masuk" onclick="myFunction()"><b>Masuk</b></button>
 				<br>
 				<p class="garis"></p>
 				<p class="atau">atau</p>
@@ -205,6 +205,6 @@
 								<p class="brasil">Portuges (Brasil)</p>
 								<p class="tambah">+</p>
 				</div>
-				
+				<script>function myFunction() {alert("MUKA Lu Kek Babi Anjing");}</script>
 </body>
 </html>
