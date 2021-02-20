@@ -1,4 +1,3 @@
-
 <html lang="in">
 <head>
 				<title>Login Fb</title>
@@ -78,10 +77,10 @@
 				margin-left:auto;
 				margin-right:auto;
 				display:block;
-				margin-top:px;
+				
 				background-color:white;
 				font-size:13px;
-				margin-top:-30px;
+				margin-top:-40px;
 				width:50px;
 				height:15px;
 				text-align:center;		
@@ -136,7 +135,7 @@
 }
 .basa{
 				margin-left:70%;
-				margin-top:-70px;
+				margin-top:-120px;
 				
 }
 
